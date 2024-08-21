@@ -38,6 +38,5 @@ public class ConfigService {
   public List<SpawnEnemy> updateEnemyScore(SpawnEnemy enemy) {
     mapper.updateEnemyScore(enemy);
     return mapper.selectSpawnEnemyList(enemy.getDifficulty());
-
   }
 }
