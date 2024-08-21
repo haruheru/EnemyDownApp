@@ -13,6 +13,7 @@ public class ConfigService {
   @Autowired
   private final GameConfigMapper mapper;
 
+
   public ConfigService(GameConfigMapper mapper) {
     this.mapper = mapper;
   }
