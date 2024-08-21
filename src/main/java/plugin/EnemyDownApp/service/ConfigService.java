@@ -14,7 +14,6 @@ public class ConfigService {
   private final GameConfigMapper mapper;
 
   public ConfigService(GameConfigMapper mapper) {
-
     this.mapper = mapper;
   }
 
